@@ -32,7 +32,7 @@ namespace AdoNet_Practice
             button_push.Location = new Point(this.ClientSize.Width - button_push.Size.Width, this.ClientSize.Height - button_push.Size.Height);
 
             button_push.Click += Button_push_Click;
-            //a
+            
 
             this.Controls.AddRange(new System.Windows.Forms.Control[] { numeric_weight, combo_type, radio_f, radio_m, button_push });
         }
