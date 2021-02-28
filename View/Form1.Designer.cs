@@ -32,7 +32,7 @@ namespace AdoNet_Practice
         {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(200, 400);
+            this.ClientSize = new System.Drawing.Size(200, 250);
             this.Text = "Form1";
 
             numeric_weight = new NumericUpDown();
@@ -40,13 +40,18 @@ namespace AdoNet_Practice
             radio_f = new RadioButton();
             radio_m = new RadioButton();
             button_push = new Button();
+            label_weight = new Label();
+            label_type = new Label();
+            label_sex = new Label();
         }
         NumericUpDown numeric_weight;
         ComboBox combo_type;
         RadioButton radio_m;
         RadioButton radio_f;
-
         Button button_push;
+        Label label_weight;
+        Label label_type;
+        Label label_sex;
 
         #endregion
     }

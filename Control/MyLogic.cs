@@ -4,14 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdoNet_Practice.Control
+namespace AdoNet_Practice
 {
+    public struct Person
+    {
+        public int weight;
+        public string type;
+        public bool sex;
+    }
     public class MyLogic
     {
-        public void Button_Save()
+        public bool Button_Save(Person person)
         {
-
+            return MyModel.Write_DB(person);
         }
-
     }
 }
